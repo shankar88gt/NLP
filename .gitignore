@@ -20,5 +20,13 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+#Ignore Data directory
 *data*
-*support_Files*
+#Ignore Support files and its contents
+support_Files/
+#Ignore images directory
+images/
+#ignore pkl files
+*.pkl
+#ignore images
+*.jpg
